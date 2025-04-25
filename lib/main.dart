@@ -14,8 +14,8 @@ class AuthApp extends StatelessWidget {
       title: 'Kahaptex HRIS',
       debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primaryColor: Colors.white, // Set primary color to white
-          scaffoldBackgroundColor: Colors.white, // Optional, ensures white background
+          primaryColor: Colors.white,
+          scaffoldBackgroundColor: Colors.white,
           colorScheme: ColorScheme.light(
             primary: Colors.white,
             surface: Colors.white,

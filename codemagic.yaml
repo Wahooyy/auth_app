@@ -4,6 +4,11 @@ workflows:
     instance_type: mac_mini_m2
     max_build_duration: 120
     environment:
+      xcode: 15.2  # pastikan pakai versi Xcode yang mendukung iOS 15.5
+    scripts:
+      - name: Set minimum iOS version
+        script: |
+          sed -i '' 's/platform :ios, .*/platform :ios, '\''15.5'\''/' ios/Podfile
       flutter: stable
       xcode: latest
       cocoapods: default

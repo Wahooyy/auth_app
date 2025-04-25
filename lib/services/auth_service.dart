@@ -9,10 +9,9 @@ import 'package:permission_handler/permission_handler.dart';
 class AuthService {
   // static const String baseUrl = 'http://kahap.42web.io/auth_app_api';
   // static const String baseUrl = 'http://103.76.15.27/auth_app_api';
-  // static const String baseUrl = 'http://192.168.4.152/erp/attendance_api';
-  // static const String baseUrl = 'http://192.168.4.152/erp/attendance_api';
+  static const String baseUrl = 'http://192.168.4.152/erp/attendance_api';
   // static const String baseUrl = 'http://192.168.4.25/auth_app_api';
-  static const String baseUrl = 'http://192.168.1.229/auth_app_api';
+  // static const String baseUrl = 'http://192.168.1.229/auth_app_api';
   // static const String baseUrl = 'http://10.0.2.2/auth_app_api';
 
   static Future<bool> login(String username, String password) async {
